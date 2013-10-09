@@ -51,6 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/File/ShareDir
 %{perl_vendorlib}/File/ShareDir/*.pm
-%{perl_vendorlib}/auto/share
 %{_mandir}/man3/*
