@@ -8,15 +8,16 @@
 Summary:	File::ShareDir::Install - Install shared files
 Summary(pl.UTF-8):	File::ShareDir::Install - instalowanie współdzielonych plików
 Name:		perl-File-ShareDir-Install
-Version:	0.10
+Version:	0.11
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	37fb7fa72ce7184516dd022aba62f524
+# Source0-md5:	61107e6ce6eee42bf29525b1a4d029e0
 URL:		http://search.cpan.org/dist/File-ShareDir-Install/
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.11
+BuildRequires:	perl-Module-Build-Tiny >= 0.034
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
