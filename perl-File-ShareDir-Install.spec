@@ -19,6 +19,7 @@ BuildRequires:	perl-ExtUtils-MakeMaker >= 6.11
 BuildRequires:	perl-Module-Build-Tiny >= 0.034
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
